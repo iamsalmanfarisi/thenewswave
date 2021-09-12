@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: black;
+}
+
+.inheader{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.title{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.title h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.nav a:last-child{
+    padding-right: 0;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h2.one {
+    width: 440px;
+    font-size: 30px;
+    font-family: Tahoma;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.two {
+    width: 440px;
+    font-size: 29px;
+    font-family: Tahoma;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.three {
+    width: 440px;
+    font-size: 29px;
+    font-family: Tahoma;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 4px;
+}
+
+h3 {
+    font-family: Tahoma;
+}
+
+.top {
+    font-family: Tahoma;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.article {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+
+.v1 {
+    border-left: 3px black;
+    height: 100px;
+}
+
+.footer {
+    background:#303036;
+    color: #d3d3d3;
+    height: 50px;
+    position: relative;
+}
+
+.footer .footer-bottom {
+    background: #343a40;
+    color: #686868;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+    position: center;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+}
+
+.parag{
+    font-size: 13px;
+    background-color: #303036;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+a:hover {
+    color: #303036;
+}
+
+.covid {
+    font-family: monospace;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 17px;
+}
